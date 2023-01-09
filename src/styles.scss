@@ -200,11 +200,15 @@ article > {
         h1{
             font-size: 1.1rem;
         }
+
+        p {
+            font-size: 1.1rem;
+            word-spacing: 0.1rem;
+        }
     }
 
     .mobile-profile{
         display: flex;
-        // margin-top: 1.5rem;
         padding: 0 2rem;
     }
 
@@ -262,14 +266,14 @@ article > {
         background-color: $very-dark-grayish-blue;
         position: absolute;
         left: 0;
-        padding: 1rem 2rem;
+        padding: 2rem;
         border-radius: 0 0 0.5rem 0.5rem;
         color: $light-grayish-blue;
     }
 
     .mobile-icons img{
-        width: 23px;
-        height: 23px;
+        width: 25px;
+        height: 25px;
     }
 
     .mobile-icons >.share-container{

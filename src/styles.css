@@ -165,6 +165,10 @@ article > p {
   article h1 {
     font-size: 1.1rem;
   }
+  article p {
+    font-size: 1.1rem;
+    word-spacing: 0.1rem;
+  }
   .mobile-profile {
     display: flex;
     padding: 0 2rem;
@@ -207,13 +211,13 @@ article > p {
     background-color: hsl(217deg, 19%, 35%);
     position: absolute;
     left: 0;
-    padding: 1rem 2rem;
+    padding: 2rem;
     border-radius: 0 0 0.5rem 0.5rem;
     color: hsl(210deg, 46%, 95%);
   }
   .mobile-icons img {
-    width: 23px;
-    height: 23px;
+    width: 25px;
+    height: 25px;
   }
   .mobile-icons > .share-container {
     background-color: hsl(214deg, 17%, 51%);
