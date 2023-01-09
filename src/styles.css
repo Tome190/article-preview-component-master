@@ -173,6 +173,9 @@ footer {
     word-spacing: 0.1rem;
     line-height: 1.5rem;
   }
+  footer {
+    display: block;
+  }
   .mobile-profile {
     display: flex;
     padding: 0 2rem;
