@@ -50,17 +50,15 @@ main {
 img:first-child {
     width: 40%;
     height:100%;
-    border: 5px;
     border-radius: 0.5rem 0 0 0.5rem;
 }
 
 article {
     height: 100%;
-    padding: 3.5rem;
+    padding: 3.5rem 3.5rem 1rem;
     position: absolute;
     left: 33%;
     background-color: white;
-    border: 5px;
     border-radius: 0 0.5rem 0.5rem 0;
 }
 
@@ -133,6 +131,10 @@ article > {
     width: 15px;
     height: 15px;
     }
+}
+
+footer{
+    display: none;
 }
 
 .desktop-icons {
