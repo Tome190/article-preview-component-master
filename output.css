@@ -144,9 +144,9 @@ article > p {
     max-width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 45% 55%;
+    grid-template-rows: 45% 45% 10%;
     margin: 0;
-    box-shadow: 0 8px 8px -4px hsl(212deg, 23%, 69%);
+    box-shadow: none;
     background-color: white;
     border-radius: 0.5rem;
   }
@@ -159,7 +159,7 @@ article > p {
   article {
     position: relative;
     left: 0;
-    padding: 4rem 2rem 2rem;
+    padding: 4rem 2rem 0;
     border-radius: 0 0 0.5rem 0.5rem;
   }
   article h1 {
@@ -167,7 +167,7 @@ article > p {
   }
   .mobile-profile {
     display: flex;
-    margin-top: 1.5rem;
+    padding: 0 2rem;
   }
   .mobile-profile p {
     color: hsl(214deg, 17%, 51%);
