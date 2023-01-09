@@ -24,6 +24,7 @@ main {
   margin: 0 auto;
   position: relative;
   box-shadow: 0 10px 10px hsl(212deg, 23%, 69%);
+  border-radius: 0.5rem;
 }
 
 img:first-child {
